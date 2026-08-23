@@ -81,12 +81,14 @@ function App() {
               AVAILABLE FOR SELECT PROJECTS
             </p>
             <h1>
-              I build digital products that <em>work beautifully.</em>
+              Full-Stack MERN Developer building digital products that{" "}
+              <em>work beautifully.</em>
             </h1>
             <p className="lead">
-              Full-stack MERN developer focused on practical products,
-              thoughtful interfaces and reliable systems — from real-time
-              emergency dispatch to e-commerce and service marketplaces.
+              Full-Stack MERN Developer focused on building modern, responsive
+              and practical web applications with React, Node.js, Express and
+              MongoDB — from real-time emergency dispatch systems to e-commerce
+              platforms and service marketplaces.
             </p>
             <div className="actions">
               <a className="btn dark" href="#work">
@@ -184,9 +186,11 @@ function App() {
             </div>
             <div className="aboutcopy">
               <p>
-                I enjoy turning real-world problems into clear, usable software.
-                My work sits at the intersection of product thinking, backend
-                logic and polished frontend experiences.
+                I am a Full-Stack MERN Developer who enjoys turning real-world
+                problems into clear, usable software. I build modern web
+                applications using React, Node.js, Express and MongoDB, with a
+                focus on practical products, reliable systems and polished
+                frontend experiences.
               </p>
               <p>
                 I care about the details that make a system dependable:
