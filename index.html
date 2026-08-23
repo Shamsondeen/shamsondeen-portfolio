@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
 
@@ -25,12 +24,12 @@
 
     <meta name="theme-color" content="#0b0d10" />
 
-    <link rel="canonical" href="https://shamsondeen-portfolio.vercel.app/" />
-
-    <meta
-      property="og:type"
-      content="website"
+    <link
+      rel="canonical"
+      href="https://shamsondeen-portfolio.vercel.app/"
     />
+
+    <meta property="og:type" content="website" />
 
     <meta
       property="og:title"
@@ -47,9 +46,13 @@
       content="https://shamsondeen-portfolio.vercel.app/"
     />
 
+    <meta property="og:site_name" content="Shamsondeen" />
+
+    <meta property="og:locale" content="en_US" />
+
     <meta
-      property="og:site_name"
-      content="Shamsondeen"
+      name="twitter:url"
+      content="https://shamsondeen-portfolio.vercel.app/"
     />
 
     <meta
@@ -67,29 +70,47 @@
       content="Full-Stack MERN Developer building modern, responsive and practical web applications."
     />
 
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
     <title>Shamsondeen | Full-Stack MERN Developer</title>
+
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Shamsondeen",
-  "url": "https://shamsondeen-portfolio.vercel.app/",
-  "jobTitle": "Full-Stack MERN Developer",
-  "description": "Full-Stack MERN Developer building modern, responsive and practical web applications with React, Node.js, Express and MongoDB.",
-  "sameAs": [
-    "https://github.com/Shamsondeen"
-  ],
-  "knowsAbout": [
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "MERN Stack",
-    "Full-Stack Web Development"
-  ]
-}
-</script>
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://shamsondeen-portfolio.vercel.app/#person",
+            "name": "Shamsondeen",
+            "url": "https://shamsondeen-portfolio.vercel.app/",
+            "jobTitle": "Full-Stack MERN Developer",
+            "description": "Full-Stack MERN Developer building modern, responsive and practical web applications with React, Node.js, Express and MongoDB.",
+            "sameAs": [
+              "https://github.com/Shamsondeen"
+            ],
+            "knowsAbout": [
+              "JavaScript",
+              "React",
+              "Node.js",
+              "Express.js",
+              "MongoDB",
+              "MERN Stack",
+              "Full-Stack Web Development"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://shamsondeen-portfolio.vercel.app/#website",
+            "url": "https://shamsondeen-portfolio.vercel.app/",
+            "name": "Shamsondeen | Full-Stack MERN Developer",
+            "description": "Portfolio of Shamsondeen, a Full-Stack MERN Developer building modern, responsive and practical web applications.",
+            "publisher": {
+              "@id": "https://shamsondeen-portfolio.vercel.app/#person"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
 
   <body>
